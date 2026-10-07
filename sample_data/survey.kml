@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <Placemark>
+      <name>Plot A</name>
+      <ExtendedData><Data name="owner"><value>Asha</value></Data></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>
+        77.000,12.000,0 77.010,12.000,0 77.010,12.010,0 77.000,12.010,0 77.000,12.000,0
+      </coordinates></LinearRing></outerBoundaryIs></Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Access road</name>
+      <LineString><coordinates>77.000,12.000,0 77.000,13.000,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>Borewell</name>
+      <Point><coordinates>77.005,12.005,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Self-intersecting plot (invalid)</name>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>
+        77.0,12.0,0 77.01,12.01,0 77.01,12.0,0 77.0,12.01,0 77.0,12.0,0
+      </coordinates></LinearRing></outerBoundaryIs></Polygon>
+    </Placemark>
+  </Document>
+</kml>
